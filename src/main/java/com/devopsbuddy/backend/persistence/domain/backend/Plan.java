@@ -8,7 +8,7 @@ import java.util.Objects;
 @Entity
 public class Plan implements Serializable {
 
-    private static final long serialVersionID = 1L;
+    private static final long serialVersionUID = 1L;
 
     @Id
     private int id;
